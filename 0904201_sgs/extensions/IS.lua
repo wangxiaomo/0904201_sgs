@@ -42,3 +42,12 @@ sgs.LoadTranslationTable{
     ["heiyan"] = "黑颜",
     [":heiyan"] = "使用黑色牌造成的伤害+1,受到黑色牌的伤害-1",
 }
+
+-- 武将: 姚明
+yaoming = sgs.General(extension, "yaoming", "shu", 4, true)
+-- 技能: 激将
+yaoming:addSkill("jijiang")
+yaoming:addSkill("hujia")
+sgs.LoadTranslationTable{
+    ["yaoming"] = "姚明",
+}
